@@ -1,5 +1,13 @@
 #install.packages("devtools")
-devtools::install_github("nstrayer/datadrivencv")
+#devtools::install_github("nstrayer/datadrivencv")
+
+# Update spreadsheet
+
+# Generate Files
+
+# Modify cv.rmd
+
+# 
 
 # run ?datadrivencv::use_datadriven_cv to see more details
 datadrivencv::use_datadriven_cv(
