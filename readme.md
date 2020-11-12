@@ -4,9 +4,10 @@
 
 - Update data
 - Container work
-  - Modify rocker image to include chromium
-  - Figure out how to get pagedown chrome_print working to output pdf
+  - [x] Modify Dockerfile to include Google Chrome (installed chrome and curl)
+  - [x] Figure out how to get pagedown chrome_print working to output pdf (add extra args!)
 
 - Push to GitHub
 - Make output files available
 
+- Make myself some notes on how to set this up....

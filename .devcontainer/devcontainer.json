@@ -1,5 +1,5 @@
 {
-	"name": "R (Community)",
+	"name": "Rocker 4.0.3 pagedown chromium",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
