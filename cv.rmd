@@ -4,7 +4,7 @@ author: Vale R. Trujillo
 date: "`r Sys.Date()`"
 params:
   pdf_mode:
-    value: true
+    value: false
 output:
   pagedown::html_resume:
     css: ['dd_cv.css', 'resume']
@@ -70,9 +70,7 @@ CV %>% print_contact_info()
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Last updated on `r Sys.Date()`.
-
-
+Last updated: `r format(Sys.Date(), "%m-%d-%Y")`
 
 Main
 ================================================================================
