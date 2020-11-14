@@ -1,18 +1,7 @@
-# Vale R. Trujillo Resume
+## Resume of Vale R. Trujillo
 
-## To Do
+This code is used to generate my resume hosted at [valetrujillo.com](http://www.valetrujillo.com). 
 
-- [x] Update data
 
-- [x] Format last updated date
-- [x] Fix links in HTML
+Thank you to Nick Strayer and [datadrivencv](https://github.com/nstrayer/datadrivencv).
 
-- Container work
-  - [x] Modify Dockerfile to include Google Chrome (installed chrome and curl)
-  - [x] Figure out how to get pagedown chrome_print working to output pdf (add extra args!)
-
-- Push to GitHub
-  - Make output files available
-  - Website
-
-- Make myself some notes on how to set this up....
