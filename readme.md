@@ -2,7 +2,7 @@
 
 ## To Do
 
-- Update data
+- [x] Update data
 
 - [x] Format last updated date
 - [x] Fix links in HTML
@@ -13,5 +13,6 @@
 
 - Push to GitHub
   - Make output files available
+  - Website
 
 - Make myself some notes on how to set this up....

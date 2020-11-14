@@ -67,6 +67,13 @@ Contact {#contact}
 CV %>% print_contact_info()
 ```
 
+Technology Skills {#skills}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %>% print_skill_bars()
+```
+
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
@@ -75,7 +82,7 @@ Last updated: `r format(Sys.Date(), "%m-%d-%Y")`
 Main
 ================================================================================
 
-Vale R. Trujillo {#title}
+Vale Trujillo {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -95,7 +102,7 @@ Experience {data-icon=suitcase}
 
 ::: aside
 ```{r}
-CV %<>% print_text_block('industy_experience_aside')
+CV %<>% print_text_block('industry_experience_aside')
 ```
 :::
 
