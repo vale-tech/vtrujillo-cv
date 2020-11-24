@@ -1,6 +1,6 @@
 ---
-title: "Vale R. Trujillo's CV"
-author: Vale R. Trujillo
+title: "Vale Trujillo's CV"
+author: Vale Trujillo
 date: "`r Sys.Date()`"
 params:
   pdf_mode:
@@ -54,7 +54,7 @@ Aside
 
 ```{r}
 if(params$pdf_mode) {
-  cat("View this CV online at _valetrujillo.com_")
+  cat("View this CV online at _valetrujillo.com/cv_")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://www.valetrujillo.com/cv/Trujillo%20V%20Resume.pdf)")
 }
