@@ -15,9 +15,10 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"ikuyadeu.r",
+		"ikuyadeu.r-pack",
+		"reditorsupport.r",
 		"mutantdino.resourcemonitor",
-		"REditorSupport.r"
+		"rdebugger.r-debugger"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

@@ -19,4 +19,4 @@ RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.d
 RUN /rocker_scripts/install_tidyverse.sh
 
 # My R packages that I need for datadrivencv
-RUN install2.r pagedown googlesheets4
+RUN install2.r languageserver pagedown googlesheets4 servr

@@ -8,16 +8,22 @@
 # Knit the HTML version
 rmarkdown::render("cv.rmd",
                   params = list(pdf_mode = FALSE),
-                  output_file = "output/Trujillo V Resume.html")
+                  output_file = "output/index.html")
 
-# Knit the PDF version to temporary html location
-tmp_html_cv_loc <- fs::file_temp(ext = ".html")
-rmarkdown::render("cv.rmd",
-                  params = list(pdf_mode = TRUE),
-                  output_file = tmp_html_cv_loc)
+# # Knit the PDF version to temporary html location
+# tmp_html_cv_loc <- fs::file_temp(ext = ".html")
+# rmarkdown::render("cv.rmd",
+#                   params = list(pdf_mode = TRUE),
+#                   output_file = tmp_html_cv_loc)
+
+# # Convert to PDF using Pagedown
+# # fails because of a missing favicon.ico
+# pagedown::chrome_print(input = tmp_html_cv_loc,
+#                        output = "output/Trujillo V Resume.pdf",
+#                        extra_args = c("--disable-gpu", "--no-sandbox"))
 
 # Convert to PDF using Pagedown
-pagedown::chrome_print(input = tmp_html_cv_loc,
+pagedown::chrome_print(input = "output/index.html",
                        output = "output/Trujillo V Resume.pdf",
                        extra_args = c("--disable-gpu", "--no-sandbox"))
                        
